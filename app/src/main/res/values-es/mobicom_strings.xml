@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">TicketBox</string>
+    <string name="conversations">Chats</string>
+    <string name="channel_create_title">Nuevo grupo</string>
+    <string name="channel_members_title">Añadir miembros</string>
+    <string name="select_at_least">Debes seleccionar al menos 1 contacto</string>
+    <string name="group_name_hint">Nombre del grupo</string>
+    <string name="empty_conversations">¡Sin chats!</string>
+    <string name="enter_message_hint">Escribe un mensaje</string>
+    <string name="send_text">ENVIAR</string>
+    <string name="cancel_text">CANCELAR</string>
+    <string name="ok_text">OK</string>
+    <string name="start_text">COMENZAR</string>
+    <string name="no_conversation">No tienes mensajes</string>
+    <string name="search_not_found_for_messages">No se encontraron chats</string>
+    <string name="info_broadcast_message">Los mensajes serán enviados a cada destinatario individualmente</string>
+    <string name="shareOptions">Compartir</string>
+
+    <string name="mobitexter_contact_sync_key">KEYMOBITEXTER_CONTACT_SYNC_</string>
+    <string name="call_history_display_within_messages_pref_key">CALL_HISTORY_DISPLAY_WITHIN_MESSAGES</string>
+    <string name="last_inbox_sync_time">LAST_INBOX_SYNC_TIME</string>
+    <string name="last_outbox_sync_time">LAST_OUTBOX_SYNC_TIME</string>
+    <string name="phone_number_key">phone_number_key</string>
+    <string name="group_sms_freq_key">GROUP_SMS_FREQ_KEY</string>
+    <string name="delivery_report_pref_key">DELIVERY_REPORT_ENABLE</string>
+    <string name="sent_sms_sync_pref_key">SENT_SMS_SYNC_FLAG</string>
+    <string name="received_sms_sync_pref_key">RECEIVED_SMS_SYNC_FLAG</string>
+    <string name="verify_contact_number">VERIFY_CONTACT_NUMBER</string>
+    <string name="device_key_string">DEVICE_KEY_STRING</string>
+    <string name="device_registration_id">DEVICE_REGISTRATION_ID</string>
+    <string name="last_sms_sync_time">LAST_SMS_SYNC_TIME</string>
+    <string name="last_message_stat_sync_time">LAST_MESSAGE_STAT_SYNC_TIME</string>
+    <string name="webhook_enable_key">WEBHOOK_ENABLE_KEY</string>
+    <string name="email">EMAIL_ID_VALUE</string>
+    <string name="email_verified">EMAIL_VERIFIED</string>
+    <string name="user_key_string">SU_USER_KEY_STRING</string>
+    <string name="stop_service">STOPSERVICE</string>
+    <string name="patch_available">NEWPATCHAVAILABLE</string>
+    <string name="update_push_registration">UPDATE_PUSH_REGISTRATION</string>
+    <string name="info_sample_contact_list">Completa tus contactos de la aplicación, mostrando los contactos del dispositivo como ejemplo</string>
+    <string name="info_message_sync">Sincronizando mensajes con el servidor, ¡Esto podría tomar unos minutos!</string>
+    <string name="instruction_open_conversation_thread">Toca cualquier chat para ver el hilo completo</string>
+    <string name="instruction_go_back_to_recent_conversation_list">Para volver a la pantalla anterior, deslízate de izquierda a derecha</string>
+    <string name="instruction_long_press_message">Para eliminar y otras opciones, mantenga presionado el mensaje</string>
+    <string name="title_activity_mobi_com">MobiComActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="user_block">Bloquear</string>
+    <string name="user_un_block">Desbloquear</string>
+    <string name="applozic_my_profile_option_info">Perfil</string>
+
+    <string name="location_services_disabled_message">El envío de la ubicación requiere acceso a su ubicación. ¡Actívalo!</string>
+    <string name="location_services_disabled_title">Servicio de ubicación deshabilitado</string>
+    <string name="location_service_settings">Ajustes</string>
+    <string name="location_sending_cancelled">Envío de ubicación cancelado</string>
+    <string name="unable_to_fetch_location">No se puede recuperar la ubicación</string>
+    <string name="waiting_for_current_location">Esperando la ubicación actual</string>
+
+    <string name="select_file">Selecciona un archivo</string>
+
+    <string name="applozic_select_photo">Selecciona una foto</string>
+    <string name="attachment_retry">Reintentar</string>
+
+    <string name="verification_success">Su número de teléfono ha sido verificado correctamente</string>
+    <string name="launch_mobitexter_app">LAUNCH_MOBITEXTER</string>
+    <string name="delete_conversation">Borrar</string>
+    <string name="delete_conversation_context">Borrar chat</string>
+    <string name="sync_messages_from_server">Sincronizando con el servidor&#8230;</string>
+
+    <string name="incoming_call">Llamada recibida</string>
+    <string name="outgoing_call">Llamada realizada</string>
+
+    <string name="welcome_message">Welcome,
+        \nMobiTexter is a Messenger &amp; SMS Texting app
+        \nText from your laptop, mobile and any Android device using your own phone number.
+        \nSend and receive text on the laptop/pc/computer browser from http://www.mobitexter.net/
+        \nFor any queries, get in touch with us at support@mobitexter.net</string>
+
+    <string name="info_app_not_found_to_open_file">No se encontró ninguna aplicación para abrir este archivo</string>
+    <string name="unable_to_play_requested_audio_file">No se encontró ninguna aplicación para abrir este archivo</string>
+    <string name="file_not_selected">¿Perdiste el archivo seleccionado?</string>
+    <string name="info_attachment_max_allowed_file_size">¡No se puede enviar el archivo, límite de tamaño de archivo excedido!</string>
+    <string name="info_file_attachment_error">¡No se puede enviar! Se produjo un error inesperado al leer el archivo</string>
+    <string name="select_file_count_limit">No se puede seleccionar más de 1 archivo</string>
+
+    <string name="ScheduleText">Programar</string>
+
+    <string name="enter_mt_message_hint">Escribe un mensaje</string>
+    <string name="messageOptions">Opciones del mensaje</string>
+    <string name="conversation">Chat</string>
+    <string name="conversation_options">Opciones</string>
+    <string name="enter_support_query_hint">Añade aquí tus consultas, informes de errores o comentarios</string>
+    <string name="info_message_scheduled">El mensaje se programó correctamented</string>
+
+    <string name="sync_older_messages">¿Quieres sincronizar mensajes más antiguos?</string>
+
+    <string name="dialog_delete_conversation_title">Eliminar chat</string>
+    <string name="dialog_delete_conversation_confir">¿Quieres eliminar todos los mensajes de [name]?</string>
+
+    <string name="negetiveButtonText">Limpiar</string>
+    <string name="scheduleDialogHeader">Programar Mensaje</string>
+    <string name="scheduledDateText">Fecha programada:</string>
+    <string name="scheduledTimeText">Hora programada:</string>
+    <string name="defaultDate">dd-mm-yyyy</string>
+    <string name="defaultTime">HH:MM:SS</string>
+    <string name="selectionRequestText">Seleccione la fecha y la hora para programar su mensaje.</string>
+
+    <string name="wearable_action_title">Responder</string>
+    <string name="wearable_action_label">Responder a</string>
+
+    <string name="verify_phone_number_notify_message">Enviando un mensaje de texto para verificar su número, lo detectaremos automáticamente cuando lo reciba.</string>
+    <string name="verification_send_sms_itself">Necesitamos confirmar que [phone_number] es su número de teléfono. Su teléfono se usará para enviarse un mensaje.</string>
+    <string name="confirm_your_number">Confirma tu número</string>
+    <string name="edit">Editar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="skip">Omitir</string>
+    <string name="you_string">Tú</string>
+
+    <string name="view_option_string">Ver</string>
+    <string name="message_option_string">Mensaje</string>
+
+    <string name="applozic_account_closed">Por favor, contacta con Applozic para activar el chat en tu aplicación</string>
+    <string name="applozic_free_version_not_allowed_on_release_build">Por favor, contacta con Applozic para activar el chat en tu aplicación</string>
+    <string name="quick_conversation_loading">Cargando conversación&#8230;</string>
+    <string name="alert_for_empty_message">¿Quieres enviar el mensaje sin texto?</string>
+    <string name="yes_alert">Sí</string>
+    <string name="subtitle_last_seen_at_time">Última vez </string>
+    <string name="is_typing">Escribiendo&#8230;</string>
+    <string name="user_online">En línea</string>
+    <string name="removing_channel_user">Borrando&#8230;</string>
+    <string name="adding_channel_user">Añadiendo&#8230;</string>
+    <string name="deleting_channel_user">Eliminando&#8230;</string>
+    <string name="channel_member_exit">Saliendo&#8230;</string>
+    <string name="channel_update">Actualizando la información del grupo&#8230;</string>
+    <string name="dialog_remove_group_user">¿Eliminar a [name] de [group]?</string>
+    <string name="dialog_add_group_user">¿Agregar a [name] a [group]?</string>
+    <string name="group_name_info">[group]</string>
+    <string name="groupType_info">[groupType]</string>
+    <string name="group_string">grupo</string>
+    <string name="broadcast_string">difusión</string>
+    <string name="new_broadcast_name_info">Nueva difusión</string>
+    <string name="mute_Group">Silencio</string>
+    <string name="unmute_Group">Sonido</string>
+    <string name="user_name_info">[name]</string>
+    <string name="channel_member_title">Selecciona un contacto</string>
+    <string name="channel_exit_button">EXIT GROUP</string>
+    <string name="channel_delete_group_button">DELETE GROUP</string>
+    <string name="broadcast_exit_button">EXIT BROADCAST</string>
+    <string name="broadcast_delete_button">DELETE BROADCAST</string>
+    <string name="channel_created_by">Creado por</string>
+    <string name="remove_member">Borrar</string>
+    <string name="add">Añadir</string>
+    <string name="group_creating_info">Creando el grupo, por favor espere&#8230;</string>
+    <string name="broadcast_creating_info">Creando difusión,  por favor espere&#8230;</string>
+    <string name="channel_exit">Salir</string>
+    <string name="channel_deleting">Borrar</string>
+    <string name="leave_channel">¿Seguro que quieres salir del grupo?</string>
+    <string name="exit_channel_message_info">¿Seguro que quieres salir del grupo [group]?</string>
+    <string name="delete_channel_messages_and_channel_info">¿Seguro que quieres borrar el grupo [group]?</string>
+    <string name="channel_name_empty">El nombre del grupo no puede estar vacío</string>
+    <string name="channel_add_alert">No puedes agregar participantes al grupo porque ya no eres participante</string>
+    <string name="channel_edit_alert">No puedes cambiar el nombre del grupo porque ya no eres participante</string>
+    <string name="admin_text">Administrador del grupo</string>
+    <string name="user_not_in_this_group_text">No puedes enviar mensajes a este grupo porque ya no eres participante</string>
+    <string name="group_has_been_deleted_text">Este grupo ha sido eliminado</string>
+    <string name="update_channel_title_name">Añade el nombre del grupo</string>
+    <string name="new_channel_name_hint">Nombre del grupo&#8230;</string>
+    <string name="user_block_info">¿Quieres bloquear a [name]? Ya no podrá enviarle mensajes</string>
+    <string name="user_un_block_info">Desbloquea a [name] para enviar un mensaje</string>
+    <string name="please_wait_info">Por favor, espere un momento&#8230;</string>
+    <string name="applozic_userId_error_info_in_logs">UserId can not be null or empty and channel key should not be null</string>
+    <string name="applozic_channel_error_info_in_logs">Please check group name is null or empty or it has at least one member to be added in group</string>
+    <string name="applozic_add_user_to_multiple_channel_error_info_in_logs">UserId can not be null or empty and channel key list should not be null</string>
+    <string name="user_logout_info">Sesión cerrada</string>
+    <string name="unable_share_message">No puedes compartir, no eres participante de este grupo</string>
+    <string name="user_is_blocked">No puedes enviar mensajes a un usuario bloqueado</string>
+    <string name="when_on_wifi">When on Wi-Fi</string>
+    <string name="when_on_cellular_network">When on cellular network</string>
+    <string name="media_auto_download">Media-auto download</string>
+    <string name="applozic_network_usage">Network usage</string>
+    <string name="enable_vibration_notification">Habilitar la vibración para las notificaciones</string>
+    <string name="user_has_been_deleted_text">El usuario ha sido borrado</string>
+    <string name="make_admin_text_info">Make group admin</string>
+    <string name="attachment_string">Archivo Adjunto</string>
+    <string name="photo_string">Foto</string>
+    <string name="contact_string">Contacto</string>
+    <string name="video_string">Video</string>
+    <string name="audio_string">Audio</string>
+    <string name="al_location_string">Location</string>
+    <string name="restricted_words_are_not_allowed">Las palabras restringidas no están permitidas</string>
+    <string name="ok_alert">OK</string>
+    <string name="km_read">Leído</string>
+    <string name="km_not_read">No leído</string>
+    <string name="km_not_sent">No enviado</string>
+    <string name="default_start_new_conversation">Iniciar nueva consulta</string>
+
+    <string name="JUST_NOW">Ahora</string>
+    <string name="MINUTES"> mins</string>
+    <string name="HOURS"> hrs</string>
+    <string name="H">h</string>
+    <string name="MINUTES_AGO"> mins (hace)</string>
+    <string name="HOURS_AGO"> hrs (hace)</string>
+    <string name="YESTERDAY">Ayer</string>
+</resources>

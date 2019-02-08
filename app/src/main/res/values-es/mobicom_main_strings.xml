@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="internet_connection_not_available">Sin conexión a Internet</string>
+    <string name="you_need_network_access_for_delete">Necesitas tener conexión a internet para borrar el chat</string>
+    <string name="applozic_server_error">Oops! Ha ocurrido un error, inténtalo de nuevo más tarde</string>
+    <string name="you_need_network_access_for_block_or_unblock">Necesitas tener conexión a Internet para bloquear / desbloquear a un usuario</string>
+    <string name="internet_connection_for_group_name_info">Necesitas tener conexión a Internet para cambiar el nombre del grupo</string>
+    <string name="you_dont_have_any_network_access_info">No tienes acceso a internet</string>
+    <string name="failed_to_leave_group">Error al salir del grupo</string>
+    <string name="user_is_already_exists">El usuario ya existe en el grupo</string>
+    <string name="delete_conversation_failed">Error al borrar</string>
+    <string name="menu_search">Buscar</string>
+    <string name="menu_add_contact">Crea un nuevo contacto</string>
+    <string name="menu_edit_contact">Editar Contacto</string>
+    <string name="no_contacts">No se encontraron contactos</string>
+    <string name="no_contact_selected">No se ha seleccionado ningún contacto</string>
+    <string name="search_hint">Buscando&#8230;</string>
+    <string name="activity_contacts_list">MobiTexter</string>
+    <string name="activity_contacts_title">Selecciona un contacto</string>
+    <string name="activity_contact_detail">Detalles del contacto</string>
+    <string name="contacts_list_search_results_title">Buscar contacto \"%s\"</string>
+    <string name="contactsListActivity">Lista de contactos</string>
+    <string name="phone_number_not_present">El número de teléfono no está presente</string>
+    <string name="mobiframework_title_device">Dispositivo</string>
+    <string name="mobiframework_title_group">Grupo</string>
+    <string name="zero_friends_on_phone">No se encontraron coincidencias en los contactos del teléfono, pero aún se puede enviar un mensaje ingresando el correo electrónico, el ID del usuario o el número de teléfono.</string>
+    <string name="contact_sync_in_progress">La sincronización de contactos está en progreso, puede tardar unos minutos</string>
+    <string name="zero_friends_on_app">Contacto no encontrado</string>
+    <string name="zero_groups_on_app">Grupo no encontrado</string>
+    <string name="delete_thread_text">Borrando&#8230;</string>
+    <string name="search_title">Buscar</string>
+    <string name="applozic_user_already_in_a_group">Ya se agregó al [groupType]</string>
+    <string name="applozic_contacts_loading_info">Cargando, por favor espere&#8230;</string>
+    <string name="applozic_contacts_loading_error">Necesita tener acceso a la red para cargar los contactos</string>
+    <string name="applozic_enter_group_name">Por favor, introduzca un nombre de grupo para continuar&#8230;</string>
+    <string name="snap_text">Oh Snap!</string> <!--TODO-->
+    <string name="account_disconnection_message">Lo sentimos, pero los mensajes no están disponibles por el momento. \nPóngase en contacto con el servicio de asistencia para obtener más información.</string>
+    <string name="powered_by_applozic_message">Estamos impulsados por Kommunicate</string>
+
+    <!--Used for the AlphabetIndexer in ContactsListFragment to provide quick navigation by alphabet using ListView fast scroll.-->
+    <string name="alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <!--When using ContactsContract.Contacts#CONTENT_FILTER_URI to search contacts, a match occurs
+         when using a number of different fields, such as name, e-mail address, address, phone
+         number, etc. When a match occurs that is not the name, there is currently no way to tell
+         which other field was matched. This string is displayed in the secondary display text in
+         ContactsListFragment when a search query match occurs that is not the display name.-->
+    <string name="search_match_other">Coincide con otro campo</string>
+    <string name="invite">Invita a tus amigos</string>
+    <array name="alphabet_color">
+        <item>#f16364</item>
+        <item>#f58559</item>
+        <item>#f9a43e</item>
+        <item>#e4c62e</item>
+        <item>#67bf74</item>
+        <item>#59a2be</item>
+        <item>#2093cd</item>
+        <item>#ad62a7</item>
+    </array>
+    <dimen name="tile_letter_font_size">250dp</dimen>
+    <!-- The deafult tile size -->
+    <dimen name="letter_tile_size">64dp</dimen>
+
+    <string name="contact_permission">Necesita permisos de contactos para acceder</string>
+    <string name="storage_permission">Necesita permisos de almacenamiento para acceder</string>
+    <string name="read_sms_permission">Necesita permisos de lectura de SMS para acceder</string>
+    <string name="location_permission">Necesita permisos de ubicación para acceder</string>
+    <string name="phone_state_permisssion">Necesita permisos del estado del teléfono para acceder</string>
+    <string name="phone_call_permission">Necesita permisos de llamada para acceder</string>
+    <string name="phone_camera_permission">Necesita permisos de cámara para acceder</string>
+    <string name="record_audio">Necesita permisos de grabación de audio para acceder</string>
+    <string name="camera_audio_permission">Necesita permisos de cámara y grabación de audio para acceder</string>
+
+    <string name="contact_permission_not_granted">No se concedió el permiso de Contactos</string>
+    <string name="storage_permission_not_granted">No se concedió el permiso de Almacenamiento</string>
+    <string name="read_sms_permission_not_granted">No se concedió el permiso de Lectura</string>
+    <string name="location_permission_not_granted">No se concedió el permiso de Ubicación</string>
+    <string name="phone_state_permission_not_granted">No se concedió el permiso de Estado del teléfono</string>
+    <string name="phone_call_permission_not_granted">No se concedió el permiso de Llamadas</string>
+    <string name="phone_camera_permission_not_granted">No se concedió el permiso de Cámara</string>
+    <string name="record_audio_permission_not_granted">No se concedió el permiso de Grabación de audio</string>
+    <string name="audio_or_camera_permission_not_granted">No se concedió el permiso de Cámara o Grabación de audio</string>
+
+    <string name="contact_permission_granted">Permiso de Contactos concedido</string>
+    <string name="storage_permission_granted">Permiso de Almacenamiento concedido</string>
+    <string name="read_sms_permission_granted">Permiso de Lectura concedido</string>
+    <string name="location_permission_granted">Permiso de Ubicación concedido</string>
+    <string name="phone_state_permission_granted">Permiso de Estado del teléfono concedido</string>
+    <string name="phone_call_permission_granted">Permiso de Llamadas concedido</string>
+    <string name="phone_camera_permission_granted">Permiso de Cámara concedido</string>
+    <string name="record_audio_permission_granted">Permiso de Grabación de audio concedido</string>
+    <string name="phone_camera_and_audio_permission_granted">Permisos de Cámara y Grabación de audio concedidos</string>
+    <string name="mobicom_max_attachment_warning">Alcalzado el límite máximo de archivos adjuntos</string>
+    <string name="mobicom_select_attachment_text">Selecciona al menos un archivo adjunto</string>
+    <string name="audio_recording_send_text">Toca en Start para grabar audio</string>
+    <string name="applozic_audio_permission_missing">No se pudo iniciar la grabadora de audio</string>
+    <string name="applozic_message_info">Información del mensaje</string>
+    <string name="applozic_message_info_no_network">No se puede recuperar la información del mensaje..</string>
+    <string name="applozic_user_profile_heading">Perfil</string>
+    <string name="send_message_to">Enviar a&#8230;</string>
+    <string name="info_attachment_max_allowed_file_size_exceeded">No se puede enviar, se excedió el límite de tamaño de archivo</string>
+    <string name="group_members_limit_exceeds">Límite alcanzado, eliminar a alguien del grupo</string>
+    <string name="please_wait_creating_group_of_two">Por favor espera&#8230;</string>
+    <string name="sort_contacts_by_lastSeenAt">Ordenar por última visita</string>
+    <string name="sort_contacts_by_recent_chats">Ordenar por chats recientes</string>
+    <string name="chats">Chats</string>
+    <string name="refresh">Refrescar</string>
+    <string name="start_New">Iniciar nuevo</string>
+    <string name="dial">Marcar</string>
+    <string name="next">Siguiente</string>
+    <string name="done">Ok</string>
+    <string name="gallery">Galería</string>
+    <string name="camera_option">Cámara</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="copy">Copiar</string>
+    <string name="forward">Reenviar a&#8230;</string>
+    <string name="resend">Reintentar</string>
+    <string name="delete">Borrar</string>
+    <string name="info">Información</string>
+    <string name="share">Compartir</string>
+    <string name="reply">Responder</string>
+    <string name="self_destruct">Self Destruct</string>
+    <string name="off">Off</string>
+    <string name="one_min">1 min</string>
+    <string name="two_min">2 min</string>
+    <string name="five_min">5 min</string>
+    <string name="ten_min">10 min</string>
+    <string name="sms">SMS</string>
+    <string name="mt">MT</string>
+    <string name="Delete_conversation">Eliminar chat</string>
+    <string name="delete_group">Eliminar grupo</string>
+    <string name="exit_group">Salir del grupo</string>
+    <string name="message">Mensaje</string>
+    <string name="remove">Borrar</string>
+    <string name="make_group_admin">Make group admin</string>
+    <string name="take_photo">Take photo</string>
+    <string name="attach_file">Attach file</string>
+    <string name="audio_message">Audio Message</string>
+    <string name="video_message">Video Message</string>
+    <string name="share_contact">Share Contact</string>
+    <string name="attach_price">Attach price</string>
+    <string name="al_location">:location</string>
+    <string name="al_file">:file</string>
+    <string name="al_audio">:audio</string>
+    <string name="al_camera">:camera</string>
+    <string name="al_video">:video</string>
+    <string name="al_contact">:contact</string>
+    <string name="al_price">:price</string>
+    <string name="current_location">Ubicación actual</string>
+    <string name="price">Price</string>
+    <string name="status">Estado</string>
+    <string name="name">Nombre</string>
+    <string name="phone">Teléfono</string>
+    <string name="Group">GRUPO</string>
+    <string name="Contact">CONTACTO</string>
+    <string name="participants">Participantes</string>
+    <string name="cancel">Cancelar</string>
+    <string name="Add_caption">Añadir un comentario&#8230;</string>
+    <string name="New_Attachment">Nuevo archivo adjunto</string>
+    <string name="send_location">Enviar ubicación</string>
+    <string name="send_your_current_location">Enviar mi ubicación actual</string>
+    <string name="Add_Contacts">Añadir contactos</string>
+    <string name="stop">PARAR</string>
+    <string name="profile_status">Estado</string>
+    <string name="no_status">Sin estado</string>
+    <string name="online">online</string>
+    <string name="notifications">Notifications</string>
+    <string name="push_notifications">Push Notifications</string>
+    <string name="sales_manager">Sales Manager</string> <!--TODO-->
+    <string name="display_name">Display Name</string> <!--TODO-->
+    <string name="today">Hoy</string>
+    <string name="kb45">45kb</string>
+    <string name="message_text">Mensaje de texto</string>
+    <string name="read">Leído</string>
+    <string name="delivered">Entregado</string>
+    <string name="file_name_will_come_here_for_attachment">El nombre del archivo irá aquí para el archivo adjunto</string>
+    <string name="mb_10">10 MB</string>
+    <string name="mobile_number">Número de teléfono móvil</string>
+    <string name="schedule">Programar</string>
+    <string name="delivery_status">Estado de entrega</string>
+    <string name="testTime">testTime</string>
+    <string name="created_at_time">created at time</string>
+    <string name="edit_group_name">Editar el nombre del grupo</string>
+    <string name="add_member">Añadir miembro</string>
+    <string name="group_not_exist">El grupo no existe</string>
+    <string name="no_groups">Sin grupos</string>
+    <string name="contacts_not_found">No se encontraron contactos</string>
+    <string name="remove_image">Borrar imagen</string>
+    <string name="applozic_failed_to_load_contact">Error al cargar el contacto</string>
+    <string name="applozic_Cropping_failed">Cropping failed</string>
+    <string name="applozic_resending_attachment">Reenviar archivo adjunto&#8230;</string>
+    <string name="Location">Ubicación</string>
+    <string name="processing_please_wait">Procesando&#8230; Por favor espere</string>
+    <string name="success">success</string>
+    <string name="error">error</string>
+    <string name="mute_group_for">Silenciar grupo&#8230;</string>
+    <string name="mute_user_for">Silenciar usuario&#8230;</string>
+    <string name="eight_Hours">8 Horas</string>
+    <string name="one_week">1 Semana </string>
+    <string name="one_year">1 Año </string>
+    <string name="file_does_not_exist">El archivo no existe</string>
+    <string name="copied_message">Mensaje copiado</string>
+    <string name="data_usage">Data Usage</string>
+    <string name="missed">Perdida</string>
+    <string name="hold_to_record_release_to_send">Presiona para grabar, suelta para enviar</string>
+    <string name="slide_to_cancel">Desliza para cancelar</string>
+    <string name="tap_on_mic_button_to_record_audio">Toca el botón de micrófono para iniciar la grabación de audio</string>
+    <string name="profile_contact">Sin número de contacto</string>
+    <string name="profile_contact_number">Número de contacto</string>
+    <string name="user_name">Nombre de usuario</string>
+    <string name="rupee_symbol">\u20B9</string>
+</resources>
